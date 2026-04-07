@@ -2,6 +2,9 @@
 
 这是一个基于 Windows 批处理脚本编写的轻量级本地大模型管理器。它主要用于管理 `llama.cpp` (llama-server) 的启动、切换与端口控制，旨在简化本地部署多模型的流程。
 
+<img width="1919" height="1095" alt="1" src="https://github.com/user-attachments/assets/9272829d-bb14-4ba8-b927-749e2283c9f7" />
+
+
 ## 特性 ✨
 - **多模型支持**：如示例中同时配置了 Qwen3.5 与 Gemma-4 系列的不同量化版本（包含 Thinking 与非 Thinking 模式）。只需提前预设好启动指令。
 - **智能端口管理**：内置端口检测机制，切换模型前自动清理旧进程，防止端口冲突。
